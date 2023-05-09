@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.daniel.col29.Col29_Coll_ControllerEj5">
+   <children>
+      <ComboBox fx:id="colores" layoutX="124.0" layoutY="188.0" onAction="#alElegirColorCambiaRectangulo" prefWidth="150.0" />
+      <Rectangle fx:id="rectangulo" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="90.0" layoutX="358.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="91.0" />
+   </children>
+</AnchorPane>

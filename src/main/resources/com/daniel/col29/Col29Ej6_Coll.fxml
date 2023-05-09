@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.daniel.col29.Col29_Coll_ControllerEj6">
+   <children>
+      <RadioButton fx:id="primavera" layoutX="30.0" layoutY="90.0" mnemonicParsing="false" onAction="#alMarcarOpcionCambiarTexto" text="Primavera">
+         <toggleGroup>
+            <ToggleGroup fx:id="estaciones" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="verano" layoutX="194.0" layoutY="90.0" mnemonicParsing="false" onAction="#alMarcarOpcionCambiarTexto" text="Verano" toggleGroup="$estaciones" />
+      <RadioButton fx:id="otoño" layoutX="326.0" layoutY="90.0" mnemonicParsing="false" onAction="#alMarcarOpcionCambiarTexto" text="Otoño" toggleGroup="$estaciones" />
+      <RadioButton fx:id="invierno" layoutX="463.0" layoutY="90.0" mnemonicParsing="false" onAction="#alMarcarOpcionCambiarTexto" text="Invierno" toggleGroup="$estaciones" />
+      <Label fx:id="texto" layoutX="282.0" layoutY="192.0" />
+   </children>
+</AnchorPane>

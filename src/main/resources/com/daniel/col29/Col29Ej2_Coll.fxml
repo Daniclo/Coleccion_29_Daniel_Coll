@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.daniel.col29.Col29_Coll_ControllerEj2">
+   <children>
+      <TextField fx:id="leeTexto" layoutX="129.0" layoutY="118.0" promptText="Introduce texto aquí" />
+      <Button layoutX="155.0" layoutY="188.0" mnemonicParsing="false" onMouseClicked="#alPulsarBotonGuardaTexto" text="Introducir texto" />
+      <Label fx:id="texto" layoutX="367.0" layoutY="164.0" />
+   </children>
+</AnchorPane>
